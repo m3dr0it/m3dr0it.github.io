@@ -2,11 +2,10 @@ const About = () => {
     return (
         <div className="p-6 w-screen md:w-5/6 mx-auto lg:w-5/12">
             <p className=" font-extralight text-xl text-justify">
-            I am an experienced backend developer with three years of expertise in Java ( Springboot and Quarkus), specializing in microservices architecture. My skill set encompasses various domains, including logistics and Insurace. Notably, I have a strong background in payment gateway services and delivery flow tracking, with a proven track record in developing efficient and scalable systems.
+            I am an experienced backend developer with three years of expertise in Java ( Springboot and Quarkus), specializing in microservices architecture. My skill set encompasses various domains, including logistics and insurance
             </p>
             <br></br>
-            <p className=" font-extralight text-xl text-justify">Additionally, my one-year experience as a network operations center engineer has honed my skills in network optimization, which has proven invaluable in enhancing my expertise in areas such as CI/CD, pipeline development, and deployment strategies. 
-My commitment to mastering DevOps practices has enabled me to seamlessly integrate development and operations, facilitating efficient and automated software delivery. I bring a comprehensive technical background and adaptability to any team in need of a developer with a strong foundation in languages, microservices, networks, and DevOps principles.</p>
+            <p className=" font-extralight text-xl text-justify">Additionally, my one-year experience as a network operations center engineer has honed my skills in network optimization, which has proven invaluable in enhancing my expertise in areas such as CI/CD, pipeline development, and deployment strategies</p>
             <br></br>
 
             <h1 className="font-extralight text-2xl">Experiences </h1>
