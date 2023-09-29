@@ -7,12 +7,10 @@ export const Navbar = ()=>{
             className="p-6"
             href="/about"
             >ABOUT</Link>
-            
             <Link
             className="p-6"
             href="/blog"
             >BLOG</Link>
-
             <Link
             className="p-6"
             href="/projects"
