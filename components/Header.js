@@ -11,8 +11,8 @@ export const Header = () => {
                 priority
                 src="/assets/images/profile.jpg"
                 className={utilStyles.borderCircle}
-                height={200}
-                width={200}
+                height={150}
+                width={150}
               />
             </Link>
             <h1 className=" mx-auto font-extralight text-2xl p-4">Ahmad Mardiana</h1>
