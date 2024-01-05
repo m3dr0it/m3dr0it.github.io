@@ -1,10 +1,15 @@
-const Post = ( {params} ) => {
-    console.log(params)
+export default function Post( {repo} ){
+    const data = getData()
+    console.log(data)
     return ( 
         <div>
-            {params.id}
+            {data}
         </div>
     )
 }
 
-export default Post
+export async function getData() {
+    const res = await fetch('https://api.github.com/repos/vercel/next.js')
+    const repo = await res.json()
+    return repo
+}
