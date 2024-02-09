@@ -1,3 +1,4 @@
+'use client'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 
 export default async function Post({params} : {params:{id:string}}){
