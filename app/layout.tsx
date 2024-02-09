@@ -1,19 +1,26 @@
-import '@styles/global.css';
+import type { Metadata } from 'next'
+import '@styles/global.css'
 import { Header } from '@components/Header';
 import { Footer } from '@components/Footer';
+import { Navbar } from '@components/NavBar';
+
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 
+export const metadata: Metadata = {
+  title: 'Ahmad Mardiana',
+  description: '',
+}   
 
-export const metadata = {
-  title : "Ahmad Mardiana"
-}
-
-const RootLayout = ({ children }) => {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html className={`${GeistSans.variable} ${GeistMono.variable}`} lang="en">
       <body>
-        <Header/>
+        <Navbar/>
         <main>
           {children}
         </main>
@@ -22,5 +29,3 @@ const RootLayout = ({ children }) => {
     </html>
   )
 }
-
-export default RootLayout
