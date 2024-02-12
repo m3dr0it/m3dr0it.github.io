@@ -1,4 +1,3 @@
-import Post from '@app/blog/posts/[id]/page';
 import { promises as fs } from 'fs';
 
 type PostType = {
@@ -23,4 +22,13 @@ export async function GET(request : Request, {params} :{params:{id:string}}) {
   }
   
   return Response.json(result)
+  }
+
+  export function generateStaticParams() {
+    return [{
+      id:'1'
+    },
+    {
+      id:'2'
+    }];
   }

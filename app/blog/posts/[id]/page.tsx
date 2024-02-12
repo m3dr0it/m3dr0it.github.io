@@ -1,7 +1,17 @@
 import GetPost from '@lib/reader';
 import { MDXRemote } from 'next-mdx-remote/rsc'
 
-export default async function Post({params} : {params:{id:string}}){
+export function generateStaticParams() {
+  return [{
+    id:'1'
+  },
+  {
+    id:'2'
+  }];
+}
+
+export default async function Page({params} : {params:{id:string}}){
+  console.log(params)
     const data = await GetPost(params.id);
     const md = atob(data.body);
     return (
@@ -14,6 +24,4 @@ export default async function Post({params} : {params:{id:string}}){
     )
 }
 
-  export function generateStaticParams() {
-    return [{ id: '1' }]
-  }
+export const dynamicParams = false;
