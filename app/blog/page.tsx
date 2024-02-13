@@ -1,19 +1,50 @@
+import { promises as fs } from "fs";
 
-const Blog = () => {
-    return (
-        <div>
-            <div className="p-6 h-screen">
-            <div className=" w-screen md:w-4/5 mx-auto lg:w-1/2">
-                <div className="border-b border-gray-400 mb-4"></div>
-                <a href="http://localhost:3000/blog/posts/1">
-                    <h1 className="text-3xl font-semibold">Post Title</h1>
-                    <p>Place holder lorem ipsum bla bla bla</p>
-                    <div className="border-b border-gray-400 mt-4"></div>
-                </a>
+type PostType = {
+  id: number;
+  title: string;
+  body: string;
+  placeholder : string;
+  coverUrl : string;
+  publishAt : string;
+};
+
+type Posts = [PostType];
+
+const Blog = async () => {
+  const file = await fs.readFile(process.cwd() + "/posts.json", "utf8");
+  const posts = JSON.parse(file) as Posts;
+
+  return (
+    <>
+      <div className="p-6 h-screen">
+        <div className=" w-screen md:w-4/5 mx-auto lg:w-1/2">
+          <div className="border-b border-gray-400 mb-4"></div>
+          {posts.map((post)=>{
+            return (
+                <a href={process.env.HOST + "/blog/posts/" + post.id}>
+                <div className="flex flex-row mt-4">
+                    <img
+                      className="mx-2 hover:placeholder:Test"
+                      src={post.coverUrl}
+                      height={79}
+                      width={79}
+                    />
+                    <div className="flex flex-col">
+                        <h1 className="text-3xl font-semibold">{post.title}</h1>
+                        <p>{post.placeholder}</p>
+                        <p className=" font-extralight text-sm italic">published at {post.publishAt} </p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    )
-}
+                <div className="border-b border-gray-400 mt-4"></div>
+              </a>
+            )
+          })}
 
-export default Blog
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Blog;

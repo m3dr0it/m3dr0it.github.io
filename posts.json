@@ -2,7 +2,18 @@
     "id" : "1",
     "title" : "Book Review : Discourage to be Dislike",
     "category":"review",
-    "coverUrl":"",
+    "placeholder":"Buku pertama saya yang dibaca di tahun 2024",
+    "coverUrl":"https://imgproxy.pdfroom.com/AZy9JafbYauaVgc1xHhrRYKdNbe7PZTIKvshjmA0mb8/rs:auto:1200:630:1/g:no/elc1bjliNncyTnEucG5n.jpg",
+    "tags":["books"],
+    "publishAt":"2024-01-20 00:00:00",
+    "body" : "U2F5YSBtZW1iYWNhIGJ1a3UgaW5pIGRhcmkgYXdhbCB0YWh1biAyMDI0LCBpbmkgbWVuamFkaSBidWt1IHBlcnRhbWEgeWFuZyBzYXlhIGJhY2EgZGkgdGFodW4gaW5pLgoKCiZuYnNwOwoKCkJ1a3UgaW5pIG1lbmdpc2Foa2FuIGRpYWxvZyBhbnRhcmEgc2VvcmFuZyBwZW11ZGEgZGFuIHNlb3JhbmcgZmlsc3VmLCBkYXJpIGF3YWwgaGluZ2dhIGFraGlyIGJlbnR1ayBwZW55YW1wYWlhbiBjZXJpdGFueWEgYmVydXBhIGRpYWxvZy4KCiZuYnNwOwoKClBlcnRhbnlhYW4geWFuZyBkaWFqdWthbiBvbGVoIHBlbXVkYSB0ZXJrYWl0IG1hc2FsYWggcHNpa29sb2dpIHlhbmcgZGlyYXNha2FuIG9sZWhueWEsIGRhaCBoYW1waXIgc2VtdWEgcGVydGFueWFhbiB5YW5nIGRpYWp1a2FuIHNhbmFnYXQgYmVyaHVidW5nYW4gZGVuZ2FuIGtvbmRpc2kgcGVtdWRhIGRpIHphbWFuIGluaWkuCgotLS0K"
+},
+{
+    "id" : "2",
+    "title" : "Book Review : Discourage to be Dislike 2",
+    "category":"review",
+    "placeholder":"Buku pertama saya yang dibaca di tahun 2024",
+    "coverUrl":"https://imgproxy.pdfroom.com/AZy9JafbYauaVgc1xHhrRYKdNbe7PZTIKvshjmA0mb8/rs:auto:1200:630:1/g:no/elc1bjliNncyTnEucG5n.jpg",
     "tags":["books"],
     "publishAt":"2024-01-20 00:00:00",
     "body" : "U2F5YSBtZW1iYWNhIGJ1a3UgaW5pIGRhcmkgYXdhbCB0YWh1biAyMDI0LCBpbmkgbWVuamFkaSBidWt1IHBlcnRhbWEgeWFuZyBzYXlhIGJhY2EgZGkgdGFodW4gaW5pLgoKCiZuYnNwOwoKCkJ1a3UgaW5pIG1lbmdpc2Foa2FuIGRpYWxvZyBhbnRhcmEgc2VvcmFuZyBwZW11ZGEgZGFuIHNlb3JhbmcgZmlsc3VmLCBkYXJpIGF3YWwgaGluZ2dhIGFraGlyIGJlbnR1ayBwZW55YW1wYWlhbiBjZXJpdGFueWEgYmVydXBhIGRpYWxvZy4KCiZuYnNwOwoKClBlcnRhbnlhYW4geWFuZyBkaWFqdWthbiBvbGVoIHBlbXVkYSB0ZXJrYWl0IG1hc2FsYWggcHNpa29sb2dpIHlhbmcgZGlyYXNha2FuIG9sZWhueWEsIGRhaCBoYW1waXIgc2VtdWEgcGVydGFueWFhbiB5YW5nIGRpYWp1a2FuIHNhbmFnYXQgYmVyaHVidW5nYW4gZGVuZ2FuIGtvbmRpc2kgcGVtdWRhIGRpIHphbWFuIGluaWkuCgotLS0K"
