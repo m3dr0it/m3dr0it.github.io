@@ -1,181 +1,164 @@
-import Image from "next/image";
-
 const About = () => {
   const loaderProp = ({ src }) => {
     return src;
   };
-  
+
   return (
     <div className="p-6 w-screen h-screen md:w-5/6 mx-auto lg:w-5/12">
       <br />
       <h1 className=" font-semibold text-2xl">Stacks</h1>
       <div className=" flex flex-row my-4">
         <a href="#">
-          <Image
+          <img
             className="mx-4 hover:"
             priority
             src="/assets/icons/java.png"
             height={80}
             width={80}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4 hover:"
             priority
             src="/assets/icons/ts.png"
             height={70}
             width={70}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/springboot.png"
             height={70}
             width={150}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4 mt-5"
             priority
             src="/assets/icons/quarkus.png"
             height={200}
             width={150}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/nexttjs.png"
             height={100}
             width={100}
-            loader={loaderProp}
           />
         </a>
       </div>
 
       <div className=" flex flex-row my-4">
         <a href="#">
-          <Image
+          <img
             className="mx-4 mt-3"
             priority
             src="/assets/icons/psql.png"
             height={150}
             width={150}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4 mt-5"
             priority
             src="/assets/icons/mongo-db.png"
             height={150}
             width={150}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/redis.png"
             height={70}
             width={70}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/kafka-logo.png"
             height={130}
             width={130}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/mysql.png"
             height={100}
             width={150}
-            loader={loaderProp}
           />
         </a>
       </div>
 
       <div className=" flex flex-row my-4">
         <a href="#">
-          <Image
+          <img
             className="mx-4 hover:"
             priority
             src="/assets/icons/git.png"
             height={100}
             width={100}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4 hover:"
             priority
             src="/assets/icons/jenkins.png"
             height={150}
             width={150}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/ubuntu.png"
             height={70}
             width={70}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4"
             priority
             src="/assets/icons/nginx.png"
             height={130}
             width={130}
-            loader={loaderProp}
           />
         </a>
 
         <a href="#">
-          <Image
+          <img
             className="mx-4 mt-4"
             priority
             src="/assets/icons/aws.png"
             height={100}
             width={100}
-            loader={loaderProp}
           />
         </a>
       </div>
