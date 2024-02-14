@@ -16,7 +16,7 @@ export const Header = () => {
             <h1 className=" mx-auto font-extralight text-2xl">Ahmad Mardiana</h1>
             <h1 className=" mx-auto font-extralight text-xl pb-4">4 Years Experienced Backend Developer</h1>          
             <div className=" flex flow-row mx-auto">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/ahmad-mardiana-814043179">
               <img
                   className="mx-2 hover:placeholder:Test"
                   priority
@@ -25,7 +25,7 @@ export const Header = () => {
                   width={25}
                 />
             </a>
-            <a>
+            <a href="https://github.com/m3dr0it">
             <img
                 priority
                 src="/assets/icons/github-logo.png"

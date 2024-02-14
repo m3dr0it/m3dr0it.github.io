@@ -10,9 +10,113 @@ const About = () => {
       <div className=" flex flex-row my-4">
         <a href="#">
           <img
-            className="mx-4 hover:"
+            className="mx-8 hover:"
             priority
             src="/assets/icons/java.png"
+            height={60}
+            width={60}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/ts.png"
+            height={50}
+            width={50}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/springboot.png"
+            height={50}
+            width={130}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8 mt-5"
+            priority
+            src="/assets/icons/quarkus.png"
+            height={180}
+            width={130}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/nexttjs.png"
+            height={80}
+            width={80}
+          />
+        </a>
+      </div>
+
+      <div className=" flex flex-row my-4">
+        <a href="#">
+          <img
+            className="mx-8 mt-3"
+            priority
+            src="/assets/icons/psql.png"
+            height={130}
+            width={130}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8 mt-5"
+            priority
+            src="/assets/icons/mongo-db.png"
+            height={130}
+            width={130}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/redis.png"
+            height={50}
+            width={50}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/kafka-logo.png"
+            height={110}
+            width={110}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/mysql.png"
+            height={70}
+            width={70}
+          />
+        </a>
+      </div>
+
+      <div className=" flex flex-row my-4">
+        <a href="#">
+          <img
+            className="mx-8 hover:"
+            priority
+            src="/assets/icons/git.png"
             height={80}
             width={80}
           />
@@ -20,133 +124,9 @@ const About = () => {
 
         <a href="#">
           <img
-            className="mx-4 hover:"
-            priority
-            src="/assets/icons/ts.png"
-            height={70}
-            width={70}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/springboot.png"
-            height={70}
-            width={150}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4 mt-5"
-            priority
-            src="/assets/icons/quarkus.png"
-            height={200}
-            width={150}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/nexttjs.png"
-            height={100}
-            width={100}
-          />
-        </a>
-      </div>
-
-      <div className=" flex flex-row my-4">
-        <a href="#">
-          <img
-            className="mx-4 mt-3"
-            priority
-            src="/assets/icons/psql.png"
-            height={150}
-            width={150}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4 mt-5"
-            priority
-            src="/assets/icons/mongo-db.png"
-            height={150}
-            width={150}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/redis.png"
-            height={70}
-            width={70}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/kafka-logo.png"
-            height={130}
-            width={130}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/mysql.png"
-            height={100}
-            width={150}
-          />
-        </a>
-      </div>
-
-      <div className=" flex flex-row my-4">
-        <a href="#">
-          <img
-            className="mx-4 hover:"
-            priority
-            src="/assets/icons/git.png"
-            height={100}
-            width={100}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4 hover:"
+            className="mx-8 hover:"
             priority
             src="/assets/icons/jenkins.png"
-            height={150}
-            width={150}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/ubuntu.png"
-            height={70}
-            width={70}
-          />
-        </a>
-
-        <a href="#">
-          <img
-            className="mx-4"
-            priority
-            src="/assets/icons/nginx.png"
             height={130}
             width={130}
           />
@@ -154,11 +134,31 @@ const About = () => {
 
         <a href="#">
           <img
-            className="mx-4 mt-4"
+            className="mx-8"
+            priority
+            src="/assets/icons/ubuntu.png"
+            height={50}
+            width={50}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8"
+            priority
+            src="/assets/icons/nginx.png"
+            height={110}
+            width={110}
+          />
+        </a>
+
+        <a href="#">
+          <img
+            className="mx-8 mt-4"
             priority
             src="/assets/icons/aws.png"
-            height={100}
-            width={100}
+            height={80}
+            width={80}
           />
         </a>
       </div>

@@ -27,11 +27,11 @@ const Blog = async () => {
                     <img
                       className="mx-2 hover:placeholder:Test"
                       src={post.coverUrl}
-                      height={79}
-                      width={79}
+                      height={59}
+                      width={59}
                     />
                     <div className="flex flex-col">
-                        <h1 className="text-3xl font-semibold">{post.title}</h1>
+                        <h1 className="text-2xl font-semibold">{post.title}</h1>
                         <p>{post.placeholder}</p>
                         <p className=" font-extralight text-sm italic">published at {post.publishAt} </p>
                     </div>
