@@ -4,7 +4,28 @@ const About = () => {
   };
 
   return (
-    <div className="p-6 w-screen h-screen md:w-5/6 mx-auto lg:w-5/12">
+    <div className="p-6 w-screen md:w-5/6 mx-auto lg:w-5/12">
+      <h1 className=" font-semibold text-2xl">Experiences</h1>
+      <table>
+        <tbody>
+          <tr>
+            <td className=" w-1/5">2022 - now</td>
+            <td>
+              <p className="font-extralight text-xl text-justify pt-2 pb-2">
+              PT. Code Development Indonesia - IFG PAY
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>20219 - 2022</td>
+            <td>
+              <p className="font-extralight text-xl text-justify pb-2">
+              PT. Code Development Indonesia - Fastana Logistic Indonesia
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <br />
       <h1 className=" font-semibold text-2xl">Stacks</h1>
       <div className=" flex flex-row my-4">

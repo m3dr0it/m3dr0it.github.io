@@ -20,11 +20,13 @@ export default function RootLayout({
   return (
     <html className={`${GeistSans.variable} ${GeistMono.variable}`} lang="en">
       <body>
-        <Navbar/>
-        <main>
-          {children}
-        </main>
-        <Footer/>
+        <div className='flex flex-col'>
+          <Navbar/>
+          <main>
+            {children}
+          </main>
+          <Footer/>
+        </div>
       </body>
     </html>
   )

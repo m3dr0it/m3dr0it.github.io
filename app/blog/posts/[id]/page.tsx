@@ -15,7 +15,7 @@ export default async function Page({params} : {params:{id:string}}){
     const data = await GetPost(params.id);
     const md = atob(data.body);
     return (
-    <div className=" w-1/3 mx-auto text-justify h-screen">
+    <div className=" lg:w-1/3 px-4 lg:px-0 w-screen mx-auto text-justify">
         <h1 className=" text-3xl py-5 font-semibold">{data.title}</h1>
         <div className=' text-xl'>
           <MDXRemote source={md}></MDXRemote>
