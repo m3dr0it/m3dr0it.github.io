@@ -16,10 +16,6 @@ export const Navbar = ()=>{
                 className={ pathName === "/blog" ? "p-6 underline" : "p-6"}
                 href="/blog"
                 >BLOG</Link>
-                <Link
-                className={ pathName === "/projects" ? "p-6 underline" : "p-6"}
-                href="/projects"
-                >PROJECTS</Link>
             </div>
         </div>
     )
