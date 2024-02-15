@@ -15,12 +15,32 @@ const About = () => {
               PT. Code Development Indonesia - IFG PAY
               </p>
             </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td className=" w-1/5"></td>
+            <td>
+            <p className="font-extralight text-xl mb-10 text-justify">
+              IFG Pay is a payment feature for IFG Life insurance app, addressing user demands for diverse payment options (credit cards, QR codes, virtual accounts, e-wallets). Successfully integrated multiple payment gateways to ensure seamless transactions and high availability.
+              </p>
+            </td>
+            <td>
+            </td>
           </tr>
           <tr>
             <td>20219 - 2022</td>
             <td>
               <p className="font-extralight text-xl text-justify pb-2">
               PT. Code Development Indonesia - Fastana Logistic Indonesia
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <p className=" font-extralight text-xl text-justify pb-2">
+              Developed an application called Fastlog with aim to assists transportation companies, large-scale distributors, and factories in meet their logistical requirements. The development of Fastlog challenges are fastlog delivery many features such as LCL (Less Container Load), FCL (Full Container Load), multipick, multidrop, tracker, and Cooperation Agreements. These features entail the handling of complex business processes.
               </p>
             </td>
           </tr>
