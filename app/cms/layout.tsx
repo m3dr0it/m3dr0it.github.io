@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
 import '@styles/global.css'
-import { Header } from '@components/Header';
-import { Footer } from '@components/Footer';
-import { Navbar } from '@components/CmsNavbar';
-import { Logo, SettingsIcon, UsersIcon, VercelLogo } from '@components/icons';
+import { Logo, SettingsIcon, UsersIcon, VercelLogo , ArticleIcon} from '@components/icons';
 import Link from 'next/link';
 import { NavItem } from './NavItem';
 
@@ -39,17 +36,9 @@ export default function RootLayout({
               </div>
               <div className="flex-1 overflow-auto py-2">
                 <nav className="grid items-start px-4 text-sm font-medium">
-                <NavItem href="/">
-                    <UsersIcon className="h-4 w-4" />
-                    Users
-                  </NavItem>
-                  <NavItem href="/settings">
-                    <SettingsIcon className="h-4 w-4" />
-                    Settings
-                  </NavItem>
-                  <NavItem href="https://vercel.com/templates/next.js/admin-dashboard-tailwind-postgres-react-nextjs">
-                    <VercelLogo className="h-4 w-4" />
-                    Deploy
+                <NavItem href="/cms">
+                    <ArticleIcon className="h-4 w-4" />
+                    Posts
                   </NavItem>
                 </nav>
               </div>
