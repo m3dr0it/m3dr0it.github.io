@@ -3,9 +3,9 @@ import '@styles/global.css'
 import { Logo, SettingsIcon, UsersIcon, VercelLogo , ArticleIcon} from '@components/icons';
 import Link from 'next/link';
 import { NavItem } from './NavItem';
-
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
+import {connect} from '../../lib/mongo'
 
 export const metadata: Metadata = {
   title: 'Ahmad Mardiana',
@@ -17,8 +17,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const mongoCon = connect()
+
+
   return (
-    
     <html className={`${GeistSans.variable} ${GeistMono.variable}`} lang="en">
       <body>
       <div className='h-full bg-gray-100'>
@@ -30,8 +33,7 @@ export default function RootLayout({
                   className="flex items-center gap-2 font-semibold"
                   href="/"
                 >
-                  <Logo />
-                  <span className="">ACME</span>
+                  <span className="">CMS</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-auto py-2">

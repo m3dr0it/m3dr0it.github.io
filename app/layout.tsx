@@ -1,9 +1,5 @@
 import type { Metadata } from 'next'
 import '@styles/global.css'
-import { Header } from '@components/Header';
-import { Footer } from '@components/Footer';
-import { Navbar } from '@components/NavBar';
-
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 
@@ -18,14 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-      <body>
-        <div className='flex flex-col'>
-          <Navbar/>
-          <main>
-            {children}
-          </main>
-          <Footer/>
-        </div>
-      </body>
+    <html className={`${GeistSans.variable} ${GeistMono.variable}`} lang="en">
+      {children}
+    </html>
   )
 }
