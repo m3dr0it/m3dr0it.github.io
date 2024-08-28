@@ -4,7 +4,6 @@ let cachedCon : Connection | null = null
 
 export async function connect(){
     if(cachedCon){
-        console.log(cachedCon)
         return cachedCon
     }
 

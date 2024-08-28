@@ -3,17 +3,24 @@
 import Editor from "../../components/Editor";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+
 const Home = () => {
+  const [posts, setPosts] = useState([])
   const router = useRouter()
 
   useEffect(() => {
-    const data = localStorage.getItem("whoami"); // Ganti 'dataKey' dengan kunci yang kamu butuhkan
-
+    const data = localStorage.getItem("whoami");
     if (!data) {
       if(data != "iamnoone"){
         router.push("/");
       }
     }
+
+    fetch("http://localhost:3000/api/post")
+    .then((res) => {
+      console.log(res.json());
+    })
+
   }, []);
 
   const [content, setContent] = useState<string>("");
@@ -27,7 +34,7 @@ const Home = () => {
     // Lakukan sesuatu dengan 'content', seperti mengirim ke server
     console.log("Submitted content:", content);
   };
-
+  
   return (
     <div className="p-10">
       <h1>Gimana ?</h1>
@@ -43,5 +50,7 @@ const Home = () => {
     </div>
   );
 };
+
+
 
 export default Home;
