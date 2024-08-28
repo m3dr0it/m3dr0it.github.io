@@ -1,11 +1,10 @@
 "use client";
 
-import Editor from "../../components/Editor";
+import Editor from "@components/Editor";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-const Home = () => {
-  const [posts, setPosts] = useState([])
+const Write = () => {
   const router = useRouter()
 
   useEffect(() => {
@@ -15,11 +14,6 @@ const Home = () => {
         router.push("/");
       }
     }
-
-    fetch("http://localhost:3000/api/post")
-    .then((res) => {
-      console.log(res.json());
-    })
 
   }, []);
 
@@ -53,4 +47,4 @@ const Home = () => {
 
 
 
-export default Home;
+export default Write;
